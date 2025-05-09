@@ -11,9 +11,7 @@ for (let i = 0; i < 10; i++ ) {
             console.log(resp)
             const elemMail = resp.data.response
             mail += `<li>${elemMail}</li>`   
-                    
-
-            if (i = 9) {
+            if (i === 9) {
                 elemList.innerHTML = mail
             }           
         })
