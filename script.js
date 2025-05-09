@@ -24,8 +24,10 @@ btnList.addEventListener("click", (event) => {
         .then((resp) => {
             console.log(resp)
             const elemMail = resp.data.response
-            mail += `<li>${elemMail}</li>`   
-            elemList.innerHTML = mail         
+            mail += `<li>${elemMail}</li>`
+            if (i === 9) {   
+            elemList.innerHTML = mail
+            }   
         })
 }
 })
