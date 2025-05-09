@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Utilities */
+
+.txt-center {
+    text-align: center;
+}
+
+:root {
+    --color-scheme: #fcfcfcf3
+}
+
+
+/* COMMON */
+
+ul li {
+    list-style-type: none;
+}
+
+
+/* BODY */
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.box-mail {
+    margin: 50px;
+    background-color: rgb(248, 141, 54);
+    padding: 50px;
+    border-radius: 20px ;
+}
+
+.titolo {
+    color: var(--color-scheme);
+    margin: 20px;
+}
