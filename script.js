@@ -10,11 +10,8 @@ for (let i = 0; i < 10; i++ ) {
         .then((resp) => {
             console.log(resp)
             const elemMail = resp.data.response
-            mail += `<div class="list-mail">
-                        <ul>
-                            <li>${elemMail}</li>
-                        </ul>    
-                    </div>`
+            mail += `<li>${elemMail}</li>`   
+                    
 
             if (i = 9) {
                 elemList.innerHTML = mail
